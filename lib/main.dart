@@ -58,6 +58,7 @@ class _MyAppState extends State<MyApp> {
           }
         },
         child: MaterialApp(
+          title: 'GAS 360',
           home: Consumer<ChangeBottomNavigationBarIndex>(
             builder: (context, appState, child) {
               return child;
